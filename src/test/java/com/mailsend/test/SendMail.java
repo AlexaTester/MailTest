@@ -16,26 +16,7 @@ import java.util.*;
 public class SendMail
 
 {
-	/*
-	 * public static void main(String[] args) throws Exception
-	 * 
-	 * { //Zip.zipFolder("C:\\rep",System.getProperty("user.dir")+"\\Reports.zip");
-	 * 
-	 * String[] to={"itsgourisankar@gmail.com","gmuvvala@tetrasoft.us"};
-	 * 
-	 * String[] cc={}; String[] bcc={};
-	 * 
-	 * //This is for google
-	 * 
-	 * sendMail("itsgourisankar@gmail.com", "9949035325G", "smtp.gmail.com", "465",
-	 * "true", "true", true, "javax.net.ssl.SSLSocketFactory", "false", to, cc, bcc,
-	 * "Automation test Reports",
-	 * "Please find the reports attached in the mail.\n\n Regards\nWebMaster",
-	 * System.getProperty("user.dir")+"\\Images\\choota.png", "Picture Image");
-	 * 
-	 * 
-	 * }
-	 */
+	
 // pduggaraju@tetrasoft.us
     public void sendanEmail()
     {
@@ -47,7 +28,7 @@ public class SendMail
         //This is for google
 
         sendMail("itsgourisankar@gmail.com",
-        		            "9949035325G",
+        		            "",
         		            "smtp.gmail.com",
         		            "465",
         		            "true",

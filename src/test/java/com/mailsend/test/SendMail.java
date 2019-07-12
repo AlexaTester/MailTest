@@ -39,7 +39,7 @@ public class SendMail
         		            cc,
         		            bcc,
         		            "Automation test Reports",
-        		            "Please find the reports attached in the mail.\n\n Regards\nWebMaster",
+        		            "Hay Am Alexa, i came Just want to see you, byeee for now",
         		        	System.getProperty("user.dir")+"\\Images\\choota.png",
         		        	"Picture Image");
     }

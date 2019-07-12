@@ -38,7 +38,7 @@ public class SendMail
         		            to,
         		            cc,
         		            bcc,
-        		            "Automation test Reports",
+        		            "Hay Am Alexa, i came Just want to see you, byeee for now",
         		            "Hay Am Alexa, i came Just want to see you, byeee for now",
         		        	System.getProperty("user.dir")+"\\Images\\choota.png",
         		        	"Picture Image");

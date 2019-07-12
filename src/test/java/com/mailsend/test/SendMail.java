@@ -20,15 +20,15 @@ public class SendMail
 // pduggaraju@tetrasoft.us
     public void sendanEmail()
     {
-    	String[] to={"itsgourisankar@gmail.com","gmuvvala@tetrasoft.us"};
+    	String[] to={"gourishankar.test1@gmail.com","gmuvvala@tetrasoft.us"};
 
         String[] cc={};
         String[] bcc={};
 
         //This is for google
 
-        sendMail("@gmail.com",
-        		            "",
+        sendMail("testemailfromalexa@gmail.com",
+        		            "9949035325G",
         		            "smtp.gmail.com",
         		            "465",
         		            "true",

@@ -16,21 +16,40 @@ import java.util.*;
 public class SendMail
 
 {
-	
+	/*
+	 * public static void main(String[] args) throws Exception
+	 * 
+	 * { //Zip.zipFolder("C:\\rep",System.getProperty("user.dir")+"\\Reports.zip");
+	 * 
+	 * String[] to={"itsgourisankar@gmail.com","gmuvvala@tetrasoft.us"};
+	 * 
+	 * String[] cc={}; String[] bcc={};
+	 * 
+	 * //This is for google
+	 * 
+	 * sendMail("itsgourisankar@gmail.com", "9949035325G", "smtp.gmail.com", "465",
+	 * "true", "true", true, "javax.net.ssl.SSLSocketFactory", "false", to, cc, bcc,
+	 * "Automation test Reports",
+	 * "Please find the reports attached in the mail.\n\n Regards\nWebMaster",
+	 * System.getProperty("user.dir")+"\\Images\\choota.png", "Picture Image");
+	 * 
+	 * 
+	 * }
+	 */ //http://gouri:9949035325@100.26.187.229:8080/job/MavenDemo/build?token=testtoken
 // pduggaraju@tetrasoft.us
     public void sendanEmail()
     {
-    	String[] to={"gourishankar.test1@gmail.com","gmuvvala@tetrasoft.us,"pduggaraju@tetrasoft.us"};
+    	String[] to={"itsgourisankar@gmail.com","gmuvvala@tetrasoft.us","pduggaraju@tetrasoft.us"};
 
         String[] cc={};
         String[] bcc={};
 
         //This is for google
 
-        sendMail("testemailfromalexa@gmail.com",
+        sendMail("itsgourisankar@gmail.com",
         		            "9949035325G",
         		            "smtp.gmail.com",
-        		            "465",
+        		            "465",//"465",
         		            "true",
         		            "true",
         		            true,
@@ -72,15 +91,15 @@ public class SendMail
 
         props.put("mail.smtp.host", host);
 
-                if(!"".equals(port))
+        if(!"".equals(port))
 
-        props.put("mail.smtp.port", port);
+        	props.put("mail.smtp.port", port);
 
-                if(!"".equals(starttls))
+        if(!"".equals(starttls))
 
-        props.put("mail.smtp.starttls.enable",starttls);
-
-        props.put("mail.smtp.auth", auth);
+	        props.put("mail.smtp.starttls.enable",starttls);
+	
+	        props.put("mail.smtp.auth", auth);
        // props.put("mail.smtps.auth", "true");
 
 

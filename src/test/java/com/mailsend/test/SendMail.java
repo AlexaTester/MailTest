@@ -20,7 +20,7 @@ public class SendMail
 // pduggaraju@tetrasoft.us
     public void sendanEmail()
     {
-    	String[] to={"gourishankar.test1@gmail.com","gmuvvala@tetrasoft.us"};
+    	String[] to={"gourishankar.test1@gmail.com","gmuvvala@tetrasoft.us,"pduggaraju@tetrasoft.us"};
 
         String[] cc={};
         String[] bcc={};

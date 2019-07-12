@@ -16,30 +16,10 @@ import java.util.*;
 public class SendMail
 
 {
-	/*
-	 * public static void main(String[] args) throws Exception
-	 * 
-	 * { //Zip.zipFolder("C:\\rep",System.getProperty("user.dir")+"\\Reports.zip");
-	 * 
-	 * String[] to={"itsgourisankar@gmail.com","gmuvvala@tetrasoft.us"};
-	 * 
-	 * String[] cc={}; String[] bcc={};
-	 * 
-	 * //This is for google
-	 * 
-	 * sendMail("itsgourisankar@gmail.com", "9949035325G", "smtp.gmail.com", "465",
-	 * "true", "true", true, "javax.net.ssl.SSLSocketFactory", "false", to, cc, bcc,
-	 * "Automation test Reports",
-	 * "Please find the reports attached in the mail.\n\n Regards\nWebMaster",
-	 * System.getProperty("user.dir")+"\\Images\\choota.png", "Picture Image");
-	 * 
-	 * 
-	 * }
-	 */ //http://gouri:9949035325@100.26.187.229:8080/job/MavenDemo/build?token=testtoken
-// pduggaraju@tetrasoft.us
+	
     public void sendanEmail()
     {
-    	String[] to={"itsgourisankar@gmail.com","gmuvvala@tetrasoft.us","pduggaraju@tetrasoft.us"};
+    	String[] to={"itsgourisankar@gmail.com","gmuvvala@tetrasoft.us","pduggaraju@tetrasoft.us","agoli@tetrasoft.us"};
 
         String[] cc={};
         String[] bcc={};
